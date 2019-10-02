@@ -3,7 +3,8 @@ import React from 'react'
 const Article = () => {
   return (
     <div>
-     <section>
+     
+       <article>
       <h2>The Statue of Liberty's torch heads to new museum </h2>
       <address>
       by Kate Farley <a href="mailto:kate.farley@nytimes.com">(kate.farley@nytimes.com)</a>
@@ -20,12 +21,12 @@ const Article = () => {
       But visitors will be able to see the original 3,600-pound torch in all its glory at a new Statue of Liberty Museum, which will open<br/> on Liberty Island in <time datetime="2019-05">May 2019</time>. The torch was transported there by truck last week, along with a replica model of Lady Liberty's<br/> face.<br/>
       </p>
       <p>
-      "Although it is not one of the most difficult things we have ever moved," says Douglas Phelps, who oversaw the relocation of the<br/> torch, "it is certainly the most important."</p>
-      </section>
-      <section>
+      <q>Although it is not one of the most difficult things we have ever moved,</q> says Douglas Phelps, who oversaw the relocation of the<br/> torch, <q>it is certainly the most important.</q></p>
+      
+      
       <h2>The history of the Statue of Liberty</h2>
       <p>
-      Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of<br/> <em>Outstanding Universal Value</em>.
+      Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of<br/> <i>Outstanding Universal Value</i>.
       </p>
       <p>
       Her full name is Liberty Enlightening the World, and she was designed by Frederic Auguste Bartholdi and built by Gustave Eiffel --<br/> yes, the same guy who built Paris's Eiffel Tower.
@@ -37,7 +38,7 @@ const Article = () => {
       Since then, the statue has served as a symbol of hope and possibility for many people who entered the United States as immigrants<br/> via neighboring Ellis Island.
       </p>
       <p>
-      "The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy," says John <br/>Piltzecker, superintendent of the Statue of Liberty National Monument. That symbolic spirit inspired the decision to inscribe these<br/> famous lines on the statue's pedestal:</p> <blockquote>Give me your tired, your poor <br/> Your huddled masses yearning to breathe free.</blockquote>
+      <q>The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy,</q> says John <br/>Piltzecker, superintendent of the Statue of Liberty National Monument. That symbolic spirit inspired the decision to inscribe these<br/> famous lines on the statue's pedestal:</p> <blockquote>Give me your tired, your poor <br/> Your huddled masses yearning to breathe free.</blockquote>
       <p>
       In 2017, nearly 4.5 million people visited Liberty Island.
       </p>
@@ -47,7 +48,7 @@ const Article = () => {
       <p>
       The inspiration gallery, which is where the torch will live, will have floor-to-ceiling glass windows looking out at Lower<br/> Manhattan, including the World Trade Center.
       </p>
-      </section>
+      
       <h2>Some facts about the Statue of Liberty</h2>
 
       <ul>
@@ -59,6 +60,7 @@ const Article = () => {
 
       <li>Total weight of the Statue of Liberty is <b>225 tons (or 450,000 pounds)</b></li>
       </ul>
+      </article>
     </div>
   )
 }
