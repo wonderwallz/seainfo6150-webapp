@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <ArticleList articles={Object.values(articles)} />
-      
     </div>
   );
 }
