@@ -1,14 +1,17 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import ArticleListItem from "./ArticleListItem"
+import sytles from './ArticleList.module.css'
 const ArticleList = props => {
   return (
     <ul>
+      <section className={sytles.container}>
       {props.articles.map(article => (
-        <li key={article.slug}>
+         <p key={article.slug}>
         <ArticleListItem article={article} />
-        </li>
+        </p>
       ))}
+      </section>
     </ul>
   );
 };
