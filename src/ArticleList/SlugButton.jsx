@@ -11,10 +11,11 @@ class SlugButton extends React.Component{
 
     render() {
       return(
-          
+            <div className={styles.h}>
             <button className={styles.b} onClick={()=>alert(this.props.slug)}>{this.props.buttonText}
                 
             </button>  
+            </div>
 
       );
     }

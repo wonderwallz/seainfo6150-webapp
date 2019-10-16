@@ -1,0 +1,22 @@
+.header{
+    color:rgb(204, 3, 3); 
+    font-size:2.0rem;
+    font-weight:bold;
+}
+
+.imageCrop{
+    border-radius: 50%;
+    width:180px;
+    height:100px;
+    float:left;
+    border:8px solid rgb(207, 6, 6);
+    margin-right:15px;
+    margin-bottom:3px;
+    margin-left:10px;
+    box-shadow: 0 10px 8px grey;
+}
+
+.height{
+    height:30px;
+    
+}

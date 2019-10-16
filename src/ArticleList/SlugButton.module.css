@@ -1,6 +1,12 @@
 .b{
     color:white;
-    background:red;
+    background:rgb(219, 2, 2);
     float:right;
-    
+    border-radius:10px;
+    width:150px;
+    height:50px;
+   
+}
+.h{
+    height:50px;
 }
