@@ -14,11 +14,12 @@ class ArticleListItem extends React.Component {
     return (
       <div>
         
-        <section className={styles.p}>
-        <ArticleImage url={this.props.article.image._url} title={this.props.article.title}></ArticleImage>
-        <p>{this.props.article.shortText}</p>
-        <time className={styles.dateTime} dateTime={this.props.article.pubYear}>{this.props.article.pubDate}</time>
-        <SlugButton slug={this.props.article.slug} buttonText={this.props.article.author}></SlugButton>
+        <section className={`${styles.p} ${styles.container}`}>
+          <ArticleImage url={this.props.article.image._url} title={this.props.article.title}></ArticleImage>
+          <h1 className={styles.header}>{this.props.article.title}</h1> 
+          <p className={styles.h}>{this.props.article.shortText}</p>
+          <time className={styles.dateTime} dateTime={this.props.article.pubYear}>{this.props.article.pubDate}</time>
+          <SlugButton slug={this.props.article.slug} buttonText={this.props.article.author}></SlugButton>
         
         </section>
        

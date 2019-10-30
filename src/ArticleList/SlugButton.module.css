@@ -1,12 +1,18 @@
 .b{
     color:white;
-    background:rgb(219, 2, 2);
-    float:right;
+    background:#c00;
+    
     border-radius:10px;
-    width:150px;
+    width:100%;
     height:50px;
+    
+
+    align-items: center;
    
 }
 .h{
     height:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+    
 }

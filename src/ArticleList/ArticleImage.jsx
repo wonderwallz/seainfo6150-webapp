@@ -12,7 +12,6 @@ class ArticleImage extends React.Component{
         <div className={styles.height}>
         
         <img className={styles.imageCrop}alt="" src={this.props.url}/>
-        <h1 className={styles.header}>{this.props.title}</h1>    
         </div>
      );   
 

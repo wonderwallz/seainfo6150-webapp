@@ -8,7 +8,7 @@ const ArticleList = props => {
       <section className={sytles.container}>
       {props.articles.map(article => (
          <p key={article.slug}>
-        <ArticleListItem article={article} />
+          <ArticleListItem  article={article} />
         </p>
       ))}
       </section>
